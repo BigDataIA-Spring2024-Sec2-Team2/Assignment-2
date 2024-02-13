@@ -1,0 +1,69 @@
+2024-02-07 22:29:11,367 - INFO - ------- Starting URL Extraction -------
+2024-02-07 22:29:18,694 - INFO - Total topics found after iteration 1 iterations are 100
+2024-02-07 22:29:28,583 - INFO - Total topics found after iteration 2 iterations are 200
+2024-02-07 22:29:38,350 - INFO - Total topics found after iteration 3 iterations are 224
+2024-02-07 22:29:38,352 - INFO - ------- Ending URL Extraction -------
+2024-02-07 22:29:42,447 - INFO - ------- Starting Data Extraction -------
+2024-02-07 22:31:06,896 - ERROR - Error: Iteration 110 topic Refresher Reading 02-18-2021  -> Learning Outcomes not found
+2024-02-07 22:31:07,557 - ERROR - Error: Iteration 111 topic Refresher Reading 11-13-2020  -> Learning Outcomes not found
+2024-02-07 22:31:29,478 - ERROR - Error: Iteration 141 topic ICE RSS FEED Active Equity Investing: Strategies  -> Learning Outcomes not found
+2024-02-07 22:31:30,331 - ERROR - Error: Iteration 142 topic test  -> content-utility-curriculum (Year) not found
+2024-02-07 22:31:30,334 - ERROR - Error: Iteration 142 topic test  -> Learning Outcomes not found
+2024-02-07 22:31:31,104 - ERROR - Error: Iteration 143 topic TEST RR  -> content-utility-curriculum (Year) not found
+2024-02-07 22:31:31,108 - ERROR - Error: Iteration 143 topic TEST RR  -> Learning Outcomes not found
+2024-02-07 22:31:31,866 - ERROR - Error: Iteration 144 topic QA Test RR 1  -> content-utility-curriculum (Year) not found
+2024-02-07 22:31:31,869 - ERROR - Error: Iteration 144 topic QA Test RR 1  -> Learning Outcomes not found
+2024-02-07 22:31:32,469 - ERROR - Error: Iteration 145 topic Branded Image Link Added to Refresher Reading  -> content-utility-curriculum (Year) not found
+2024-02-07 22:31:32,475 - ERROR - Error: Iteration 145 topic Branded Image Link Added to Refresher Reading  -> Learning Outcomes not found
+2024-02-07 22:31:33,283 - ERROR - Error: Iteration 146 topic Big Data Projects  -> Learning Outcomes not found
+2024-02-07 22:31:34,101 - ERROR - Error: Iteration 147 topic Big Data Projects  -> Learning Outcomes not found
+2024-02-07 22:31:35,022 - ERROR - Error: Iteration 148 topic Test 20 Cost of Capital  -> Learning Outcomes not found
+2024-02-07 22:31:37,254 - ERROR - Error: Iteration 151 topic Big Data Projects  -> Learning Outcomes not found
+2024-02-07 22:31:37,894 - ERROR - Error: Iteration 152 topic Industry and Company Analysis (2018)  -> Learning Outcomes not found
+2024-02-07 22:31:39,009 - ERROR - Error: Iteration 153 topic Discounted Dividend Valuation (2018)   -> Learning Outcomes not found
+2024-02-07 22:31:39,749 - ERROR - Error: Iteration 154 topic The Portfolio Management Process and the Investment Policy Statement (2018)  -> Learning Outcomes not found
+2024-02-07 22:31:40,704 - ERROR - Error: Iteration 155 topic Employee Compensation: Post-Employment and Share-Based (2018)   -> Learning Outcomes not found
+2024-02-07 22:31:41,349 - ERROR - Error: Iteration 156 topic Integration of Financial Statement Analysis Techniques (2018)  -> Learning Outcomes not found
+2024-02-07 22:31:42,389 - ERROR - Error: Iteration 157 topic Free Cash Flow Valuation (2018)  -> Learning Outcomes not found
+2024-02-07 22:31:43,192 - ERROR - Error: Iteration 158 topic Market-Based Valuation: Price and Enterprise Value Multiples (2018)   -> Learning Outcomes not found
+2024-02-07 22:31:44,282 - ERROR - Error: Iteration 159 topic Residual Income Valuation (2018)   -> Learning Outcomes not found
+2024-02-07 22:31:45,121 - ERROR - Error: Iteration 160 topic Yield-Based Bond Convexity and Portfolio Properties  -> Learning Outcomes not found
+2024-02-07 22:31:49,567 - ERROR - Error: Iteration 165 topic Interest Rate Risk and Return   -> Learning Outcomes not found
+2024-02-07 22:31:50,612 - ERROR - Error: Iteration 166 topic Yield-Based Bond Duration Measures and Properties  -> Learning Outcomes not found
+2024-02-07 22:31:52,064 - ERROR - Error: Iteration 168 topic Yield and Yield Spread Measures for Floating-Rate Instruments  -> Learning Outcomes not found
+2024-02-07 22:31:53,883 - ERROR - Error: Iteration 170 topic Capital Investments and Capital Allocation  -> Learning Outcomes not found
+2024-02-07 22:31:55,516 - ERROR - Error: Iteration 172 topic Sampling and Estimation  -> content-utility-curriculum (Year) not found
+2024-02-07 22:31:55,519 - ERROR - Error: Iteration 172 topic Sampling and Estimation  -> Learning Outcomes not found
+2024-02-07 22:32:02,238 - ERROR - Error: Iteration 180 topic Fixed-Income Markets for Government Issuers  -> Learning Outcomes not found
+2024-02-07 22:32:04,866 - ERROR - Error: Iteration 183 topic Case Study in Risk Management: Institutional  -> Learning Outcomes not found
+2024-02-07 22:32:05,747 - ERROR - Error: Iteration 184 topic Hedge Funds  -> Learning Outcomes not found
+2024-02-07 22:32:09,279 - ERROR - Error: Iteration 188 topic Credit Analysis for Government Issuers  -> Learning Outcomes not found
+2024-02-07 22:32:10,250 - ERROR - Error: Iteration 189 topic Asset-Backed Security (ABS) Instrument and Market Features  -> Learning Outcomes not found
+2024-02-07 22:32:11,123 - ERROR - Error: Iteration 190 topic Fixed-Income Bond Valuation: Prices and Yields  -> Learning Outcomes not found
+2024-02-07 22:32:11,761 - ERROR - Error: Iteration 191 topic The Term Structure of Interest Rates: Spot, Par, and Forward Curves  -> Learning Outcomes not found
+2024-02-07 22:32:12,634 - ERROR - Error: Iteration 192 topic Alternative Investment Performance and Returns  -> Learning Outcomes not found
+2024-02-07 22:32:13,487 - ERROR - Error: Iteration 193 topic Investments in Private Capital: Equity & Debt  -> Learning Outcomes not found
+2024-02-07 22:32:14,521 - ERROR - Error: Iteration 194 topic Credit Risk  -> Learning Outcomes not found
+2024-02-07 22:32:15,352 - ERROR - Error: Iteration 195 topic Fixed-Income Securitization  -> Learning Outcomes not found
+2024-02-07 22:32:16,256 - ERROR - Error: Iteration 196 topic Investors and Other Stakeholders  -> Learning Outcomes not found
+2024-02-07 22:32:16,904 - ERROR - Error: Iteration 197 topic Yield and Yield Spread Measures for Fixed-Rate Bonds  -> Learning Outcomes not found
+2024-02-07 22:32:18,589 - ERROR - Error: Iteration 199 topic Alternative Investment Features, Methods, and Structures  -> Learning Outcomes not found
+2024-02-07 22:32:19,658 - ERROR - Error: Iteration 200 topic Curve-Based and Empirical Fixed-Income Risk Measures  -> Learning Outcomes not found
+2024-02-07 22:32:20,289 - ERROR - Error: Iteration 201 topic Organizational Forms, Corporate Issuer Features, and Ownership  -> Learning Outcomes not found
+2024-02-07 22:32:21,254 - ERROR - Error: Iteration 202 topic Hedge Funds  -> Learning Outcomes not found
+2024-02-07 22:32:22,181 - ERROR - Error: Iteration 203 topic Introduction to Digital Assets  -> Learning Outcomes not found
+2024-02-07 22:32:22,808 - ERROR - Error: Iteration 204 topic Fixed-Income Instrument Features  -> Learning Outcomes not found
+2024-02-07 22:32:23,778 - ERROR - Error: Iteration 205 topic Multinational Operations (2018)  -> Learning Outcomes not found
+2024-02-07 22:32:24,411 - ERROR - Error: Iteration 206 topic Natural Resources  -> Learning Outcomes not found
+2024-02-07 22:32:25,261 - ERROR - Error: Iteration 207 topic Real Estate & Infrastructure  -> Learning Outcomes not found
+2024-02-07 22:32:25,869 - ERROR - Error: Iteration 208 topic Credit Analysis for Corporate Issuers  -> Learning Outcomes not found
+2024-02-07 22:32:26,518 - ERROR - Error: Iteration 209 topic Mortgage-Backed Security (MBS) Instrument and Market Features  -> Learning Outcomes not found
+2024-02-07 22:32:27,145 - ERROR - Error: Iteration 210 topic Fixed-Income Issuance and Trading  -> Learning Outcomes not found
+2024-02-07 22:32:28,044 - ERROR - Error: Iteration 211 topic Industry and Competitive Analysis  -> Learning Outcomes not found
+2024-02-07 22:32:28,984 - ERROR - Error: Iteration 212 topic Company Analysis: Forecasting  -> Learning Outcomes not found
+2024-02-07 22:32:32,683 - ERROR - Error: Iteration 216 topic Company Analysis: Past and Present  -> Learning Outcomes not found
+2024-02-07 22:32:33,544 - ERROR - Error: Iteration 217 topic Business Models  -> Learning Outcomes not found
+2024-02-07 22:32:34,497 - ERROR - Error: Iteration 218 topic Fixed-Income Markets for Corporate Issuers  -> Learning Outcomes not found
+2024-02-07 22:32:35,134 - ERROR - Error: Iteration 219 topic Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits  -> Learning Outcomes not found
+2024-02-07 22:32:35,925 - ERROR - Error: Iteration 220 topic Fixed-Income Cash Flows and Types  -> Learning Outcomes not found
+2024-02-07 22:32:41,592 - INFO - ------- Ending Data Extraction -------
