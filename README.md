@@ -8,9 +8,9 @@ This project aims to create two primary datasets by scraping information from th
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
-[![AWS](https://img.shields.io/badge/AWS-411120?style=for-the-badge)(https://aws.amazon.com/)]
-[![Snowflake](https://img.shields.io/badge/Snowflake-100760?style=for-the-badge)(https://app.snowflake.com/)]
-[![SqlAlchemy](https://img.shields.io/badge/SqlAlchemy-700000?style=for-the-badge)(https://www.sqlalchemy.org/)]
+[![AWS](https://img.shields.io/badge/AWS-411120?style=for-the-badge)](https://aws.amazon.com/)
+[![Snowflake](https://img.shields.io/badge/Snowflake-100760?style=for-the-badge)](https://app.snowflake.com/)
+[![SqlAlchemy](https://img.shields.io/badge/SqlAlchemy-700000?style=for-the-badge)](https://www.sqlalchemy.org/)
 
 
 ## Data Sources
