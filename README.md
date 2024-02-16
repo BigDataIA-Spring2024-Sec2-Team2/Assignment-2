@@ -8,8 +8,10 @@ This project aims to create two primary datasets by scraping information from th
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
 [![AWS](https://img.shields.io/badge/AWS-411120?style=for-the-badge)](https://aws.amazon.com/)
-[![Snowflake](https://img.shields.io/badge/Snowflake-100760?style=for-the-badge)](https://app.snowflake.com/)
 [![SqlAlchemy](https://img.shields.io/badge/SqlAlchemy-700000?style=for-the-badge)](https://www.sqlalchemy.org/)
+[![GROBID](https://img.shields.io/badge/GROBID-FFFFFF?style=for-the-badge&logo=GROBID&logoColor=black)](https://grobid.readthedocs.io/en/latest/Introduction/)
+[![Snowflake](https://img.shields.io/badge/snowflake-0000FF?style=for-the-badge&logo=snowflake&logoColor=white)](https://docs.snowflake.com/ )
+
 
 
 ## Data Sources
@@ -33,12 +35,12 @@ This project aims to create two primary datasets by scraping information from th
 │     ├─ PyPDF_RR_2024_levelI_combined.txt
 │     ├─ PyPDF_RR_2024_levelII_combined.txt
 │     └─ PyPDF_RR_2024_levelII_combined.txt
-├─ raw-pdf-data
-│  ├─ 2024-l1-topics-combined-2.pdf
-│  ├─ 2024-l2-topics-combined-2.pdf
-│  └─ 2024-l3-topics-combined-2.pdf
-├─ scrape-data
-│  └─ cfa-data.csv
+|   └─ raw-pdf-data
+|      ├─ 2024-l1-topics-combined-2.pdf
+|      ├─ 2024-l2-topics-combined-2.pdf
+|      └─ 2024-l3-topics-combined-2.pdf
+|    └─ scrape-data
+│      └─ cfa-data.csv
 ├─ diagrams
 │  ├─ architecture_diagram.ipynb
 │  └─ architecture_diagram
@@ -80,6 +82,17 @@ Generated using [Project Tree Generator](https://woochanleee.github.io/project-t
 CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-93WU_VrgvxRuWhSNYANm2L1e4/edit#heading=h.30zowzpo6ptm) 
 
 ## References
+
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- https://www.selenium.dev/
+- https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending
+- https://pypdf.readthedocs.io/en/stable/
+- https://github.com/kermitt2/grobid
+- https://diagrams.mingrammer.com/
+- https://aws.amazon.com/
+- https://app.snowflake.com/
+- https://www.sqlalchemy.org/
+- https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_structure
 
 
 ## Team Information 
