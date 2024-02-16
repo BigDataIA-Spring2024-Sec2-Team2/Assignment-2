@@ -2,7 +2,12 @@
 [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-93WU_VrgvxRuWhSNYANm2L1e4/edit#heading=h.30zowzpo6ptm/)
 ## Overview
 
-This project aims to create two primary datasets by scraping information from the [CFA Institute's website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending) and extracting text from provided PDF files. Ensuring that the data is successfully uploaded to the cloud.
+## Problem Statement
+
+The objective of this assignment is to develop a comprehensive data engineering solution that aggregates, structures, and makes accessible a vast array of finance professional development materials. This project will enhance the learning experience for finance professionals by providing an intelligent app interface to interact with curated finance materials.
+
+## Project Goals
+Task is to create two primary datasets from the 224 refresher readings listed on the C[CFA Institute's website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending) and the topic outlines(attached PDF files). These readings are crucial for finance professionals looking to improve their finance skills. The datasets will serve as the backbone for an intelligent application designed for these professionals.
 
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
@@ -12,11 +17,13 @@ This project aims to create two primary datasets by scraping information from th
 [![GROBID](https://img.shields.io/badge/GROBID-FFFFFF?style=for-the-badge&logo=GROBID&logoColor=black)](https://grobid.readthedocs.io/en/latest/Introduction/)
 [![Snowflake](https://img.shields.io/badge/snowflake-0000FF?style=for-the-badge&logo=snowflake&logoColor=white)](https://docs.snowflake.com/ )
 
-
-
 ## Data Sources
 [CFA Institute's website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending)
 
+## Pre requisites
+1. Python Knowledge
+2. Snowflake Account
+3. AWS Keys
 
 ## Project Structure
 
@@ -24,44 +31,59 @@ This project aims to create two primary datasets by scraping information from th
 📦 
 ├─ data
 │  └─ extracted-pdf-data_Grobid
-│     ├─ 2024-l1-topics-combined-2.grobid.tei
-│     ├─ 2024-l2-topics-combined-2.grobid.tei
-│     ├─ 2024-l3-topics-combined-2.grobid.tei
-│     ├─ grobid_metadata.csv
-│     ├─ Grobid_RR_2024_1_combined.txt
-│     ├─ Grobid_RR_2024_2_combined.txt
-│     └─ Grobid_RR_2024_3_combined.txt
+│  |  ├─ 2024-l1-topics-combined-2.grobid.tei
+│  |  ├─ 2024-l2-topics-combined-2.grobid.tei
+│  |  ├─ 2024-l3-topics-combined-2.grobid.tei
+│  |  ├─ grobid_metadata.csv
+|  |  ├─ grobid_metadata_new.csv
+│  |  ├─ Grobid_RR_2024_1_combined.txt
+│  |  ├─ Grobid_RR_2024_2_combined.txt
+│  |  └─ Grobid_RR_2024_3_combined.txt
 │  └─ extracted-pdf-data_PyPDF2
-│     ├─ PyPDF_RR_2024_levelI_combined.txt
-│     ├─ PyPDF_RR_2024_levelII_combined.txt
-│     └─ PyPDF_RR_2024_levelII_combined.txt
-|   └─ raw-pdf-data
-|      ├─ 2024-l1-topics-combined-2.pdf
-|      ├─ 2024-l2-topics-combined-2.pdf
-|      └─ 2024-l3-topics-combined-2.pdf
-|    └─ scrape-data
+│  |  ├─ PyPDF_RR_2024_levelI_combined.txt
+│  |  ├─ PyPDF_RR_2024_levelII_combined.txt
+│  |  └─ PyPDF_RR_2024_levelII_combined.txt
+|  └─ raw-pdf-data
+|  |  ├─ 2024-l1-topics-combined-2.pdf
+|  |  ├─ 2024-l2-topics-combined-2.pdf
+|  |  └─ 2024-l3-topics-combined-2.pdf
+|  └─ scrape-data
 │      └─ cfa-data.csv
 ├─ diagrams
 │  ├─ architecture_diagram.ipynb
 │  └─ architecture_diagram
 ├─ logs
 │  ├─ scrape-log
-│  │  └─ webscrapping.txt
+│  │  └─ webscrapping.log
+│  └─ data-load-log
+│     └─ snowflake-upload.log
 ├─ notebooks
-│  ├─ data-load
-│  │  └─ store-files.ipynb
+│  └─ data-load
+|  |   ├─ snowflake_helper.py
+|  |   ├─ snowflake_upload.ipynb
+│  |   └─ store-files.ipynb
 │  ├─ pdf-data-extract
 │  │  └─ pdf-data-extractionn.ipynb
 │  └─ web-scrape
 │     └─ webscrape_cfa.ipynb
-├─ venv
+├─ configuration.properties.example
 ├─ .gitignore
 ├─ README
 └─ requirements.txt
 ```
-Generated using [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
 
+## How to run Application locally
 
+1. Create Python virtual environment
+2. run -> pip install -r requirements.txt
+3. load Jupyter Notebook
+4. Copy configuration.properties.example and rename it to configuration.properties and add the keys
+5. run local image of Grobid
+6. run the webscrape_cfa.ipynb - file
+7. next run pdf-data-extractionn.ipynb
+8. then run snowflake_upload.ipynb
+9. finally run store-files.ipynb
+    
 ## Project run outline
 
 ### 1. Web Scraping and Dataset Creation
@@ -94,11 +116,11 @@ CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-
 - https://www.sqlalchemy.org/
 - https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_structure
 
-
 ## Team Information 
+Project Board - https://github.com/orgs/BigDataIA-Spring2024-Sec2-Team2/projects/1/views/1
 
-Name | Contributions |
---- |--- |
-Anshul Chaudhary | 40 % |
-Agash Uthayasuriyan | 30 % |
-Narayani Arun Patil | 30 % |
+Name | Contribution %| Contributions |
+--- |--- | --- |
+Anshul Chaudhary  | 40% | web scrapping, Snowflake setup/csv upload|
+Agash Uthayasuriyan | 30% | Grobit locall installation and data extraction|
+Narayani Arun Patil | 30% | Pypdf2 data extraction and text S3 upload|
