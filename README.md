@@ -1,13 +1,13 @@
 ## Live application Links
-[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-93WU_VrgvxRuWhSNYANm2L1e4/edit#heading=h.30zowzpo6ptm/)
-## Overview
+
+[![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1dZdiE4i6tSN4ORSth-93WU_VrgvxRuWhSNYANm2L1e4#0)
 
 ## Problem Statement
 
 The objective of this assignment is to develop a comprehensive data engineering solution that aggregates, structures, and makes accessible a vast array of finance professional development materials. This project will enhance the learning experience for finance professionals by providing an intelligent app interface to interact with curated finance materials.
 
 ## Project Goals
-Task is to create two primary datasets from the 224 refresher readings listed on the C[CFA Institute's website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending) and the topic outlines(attached PDF files). These readings are crucial for finance professionals looking to improve their finance skills. The datasets will serve as the backbone for an intelligent application designed for these professionals.
+Task is to create two primary datasets from the 224 refresher readings listed on the [CFA Institute's website](https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending) and the topic outlines(attached PDF files). These readings are crucial for finance professionals looking to improve their finance skills. The datasets will serve as the backbone for an intelligent application designed for these professionals.
 
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
@@ -115,6 +115,23 @@ CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-
 - https://app.snowflake.com/
 - https://www.sqlalchemy.org/
 - https://github.com/ashrithagoramane/DAMG7245-Spring24/tree/main/repository_structure
+
+## Learning Outcomes
+
+1. Web Scraping:
+   - Utilize Beautiful Soup and Selenium in Python to scrape data from dynamic websites.
+   
+2. PDF Text Extraction:
+   - Implement PyPDF2 to extract text from PDF files and save it into plain text files.
+   
+3. GROBID Integration:
+   - Learn to set up and run a GROBID server locally for extracting structured data from PDF files.
+   
+4. AWS S3 Bucket Upload:
+   - Use Boto3 and AWS CLI to upload files to an S3 bucket, facilitating data storage and access.
+   
+5. Snowflake Data Load:
+   - Employ SQLAlchemy to load data into Snowflake's internal stage, enabling efficient data ingestion and management using SQL queries.
 
 ## Team Information 
 Project Board - https://github.com/orgs/BigDataIA-Spring2024-Sec2-Team2/projects/1/views/1
