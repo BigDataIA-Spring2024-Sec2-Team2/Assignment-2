@@ -22,6 +22,14 @@ This project aims to create two primary datasets by scraping information from th
 ```
 📦 
 ├─ data
+│  └─ extracted-pdf-data_Grobid
+│     ├─ 2024-l1-topics-combined-2.grobid.tei
+│     ├─ 2024-l2-topics-combined-2.grobid.tei
+│     ├─ 2024-l3-topics-combined-2.grobid.tei
+│     ├─ grobid_metadata.csv
+│     ├─ Grobid_RR_2024_1_combined.txt
+│     ├─ Grobid_RR_2024_2_combined.txt
+│     └─ Grobid_RR_2024_3_combined.txt
 │  └─ extracted-pdf-data_PyPDF2
 │     ├─ PyPDF_RR_2024_levelI_combined.txt
 │     ├─ PyPDF_RR_2024_levelII_combined.txt
@@ -33,9 +41,11 @@ This project aims to create two primary datasets by scraping information from th
 ├─ scrape-data
 │  └─ cfa-data.csv
 ├─ diagrams
-│  ├─ Architecture diagram.ipynb
-│  └─ Architecture diagram
+│  ├─ architecture_diagram.ipynb
+│  └─ architecture_diagram
 ├─ logs
+│  ├─ scrape-log
+│  │  └─ webscrapping.txt
 ├─ notebooks
 │  ├─ data-load
 │  │  └─ store-files.ipynb
@@ -43,6 +53,7 @@ This project aims to create two primary datasets by scraping information from th
 │  │  └─ pdf-data-extractionn.ipynb
 │  └─ web-scrape
 │     └─ webscrape_cfa.ipynb
+├─ venv
 ├─ .gitignore
 ├─ README
 └─ requirements.txt
@@ -69,12 +80,10 @@ Generated using [Project Tree Generator](https://woochanleee.github.io/project-t
 
 CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-93WU_VrgvxRuWhSNYANm2L1e4/edit#heading=h.30zowzpo6ptm) 
 
-
-
 ## References
 
 
-## Team Information and Contribution 
+## Team Information 
 
 Name | Contributions |
 --- |--- |
