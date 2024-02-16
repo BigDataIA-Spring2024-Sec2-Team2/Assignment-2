@@ -99,6 +99,6 @@ CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-
 
 Name | Contributions |
 --- |--- |
-Anshul Chaudhary | chaudhary.ans@northeastern.edu |
-Agash Uthayasuriyan | uthayasuriyan.a@northeastern.edu |
-Narayani Arun Patil | patil.nar@northeastern.edu |
+Anshul Chaudhary | 40 % |
+Agash Uthayasuriyan | 30 % |
+Narayani Arun Patil | 30 % |
