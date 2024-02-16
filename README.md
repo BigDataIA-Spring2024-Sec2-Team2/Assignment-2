@@ -83,7 +83,7 @@ CodeLab - [Documentation](https://docs.google.com/document/d/1dZdiE4i6tSN4ORSth-
 
 ## References
 
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 - https://www.selenium.dev/
 - https://www.cfainstitute.org/en/membership/professional-development/refresher-readings#sort=%40refreadingcurriculumyear%20descending
 - https://pypdf.readthedocs.io/en/stable/
